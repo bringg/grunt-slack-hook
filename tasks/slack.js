@@ -26,8 +26,12 @@ module.exports = function(grunt) {
             text: buildText(grunt.cli.options)
         };
 
-        if(options.channel){
+        if(options.channel) {
             data.channel = options.channel;
+        }
+
+        if(this.data.channel) {
+          data.channel = this.data.channel;
         }
 
         if (options.username) {
