@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "lodash.template": "^4.4.0",
-    "superagent": "~0.15.7"
+    "superagent": "~6.0.0"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
